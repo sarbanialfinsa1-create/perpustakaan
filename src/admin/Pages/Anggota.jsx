@@ -468,8 +468,8 @@ function Anggota() {
 
                       <span
                         className={`rounded-full px-3 py-1.5 text-xs font-semibold ${member.status === "Aktif"
-                            ? "bg-emerald-50 text-emerald-700"
-                            : "bg-slate-100 text-slate-600"
+                          ? "bg-emerald-50 text-emerald-700"
+                          : "bg-slate-100 text-slate-600"
                           }`}
                       >
                         {member.status}
