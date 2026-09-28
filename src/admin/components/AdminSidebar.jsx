@@ -146,7 +146,7 @@ function AdminSidebar() {
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
               <img
-                src="/src/assets/image/logobiru.png"
+                src="/logobiru.png"
                 alt="Logo SIMPUS SATAK"
                 className="h-full w-full object-contain"
               />
@@ -194,8 +194,8 @@ function AdminSidebar() {
                   setIsOpen(false); // Otomatis menutup sidebar di mobile setelah diklik
                 }}
                 className={`flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition ${active
-                    ? "bg-blue-600 text-white shadow-sm"
-                    : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                  ? "bg-blue-600 text-white shadow-sm"
+                  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                   }`}
               >
                 <Icon size={19} />
