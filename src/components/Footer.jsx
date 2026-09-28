@@ -62,7 +62,7 @@
 
 import { Instagram, Facebook, Mail } from "lucide-react";
 
-// Import logo dari folder assets
+// Import logo dari folder assets (Pastikan nama file logobiru.png / logoBiru.png sesuai huruf kapitalnya)
 import logoBiru from "../assets/image/logobiru.png";
 
 export default function Footer() {
@@ -73,7 +73,7 @@ export default function Footer() {
     >
       <div className="container-page flex flex-col items-center justify-between gap-6 sm:flex-row">
         <div className="flex items-center gap-4">
-          {/* BAGIAN LOGO (Diubah menjadi w-[112px] dan h-[68px]) */}
+          {/* BAGIAN LOGO */}
           <div className="flex h-[68px] w-[112px] items-center justify-center overflow-hidden">
             <img
               src={logoBiru}
@@ -83,12 +83,10 @@ export default function Footer() {
           </div>
 
           <div>
-            {/* Judul Logo: Poppins Bold, Ukuran 20px, Warna #FFFFFF */}
             <p className="text-[20px] font-bold text-[#FFFFFF] leading-tight">
               SIMPUS SATAK
             </p>
 
-            {/* Sub-judul: Poppins Regular, Ukuran 10px, Warna #FFFFFF */}
             <p className="text-[10px] font-normal text-[#FFFFFF] leading-tight mt-1">
               Sistem Informasi & Manajemen Perpustakaan
             </p>
