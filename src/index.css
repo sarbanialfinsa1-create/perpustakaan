@@ -1,0 +1,66 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  color: #16223B;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-[1440px] px-6 md:px-10 lg:px-16;
+  }
+} */
+
+/* Respect reduced motion preference */
+/* @media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+} */
+
+/* 1. Import Font Poppins dari Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* 2. Ubah Plus Jakarta Sans menjadi Poppins */
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  color: #16223b;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-[1440px] px-6 md:px-10 lg:px-16;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+#informasi {
+  scroll-margin-top: 80px;
+}
