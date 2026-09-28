@@ -34,3 +34,4 @@ npm run build     # build production ke folder dist/
 
 Ganti isi `src/data/books.js` dengan pemanggilan `BookService.getPopular()`
 dari `src/services/api.js` begitu backend Laravel berjalan.
+# frontend
